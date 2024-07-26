@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Editor de texto</h1>
+    </header>
+    <section>
+        <label for="arquivo" class="custom-file-upload">
+            <input type="file" id="arquivo" name="arquivo" style="display:none;">
+            Escolha um arquivo
+        </label>        
+        <br></br>
+        <textarea rows="10" cols="50" id="preview"></textarea>
+        <button id="download"><header>Download</header></button>
+    </section>
+    <footer>
+        <p>&copy; BryanFagundes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
